@@ -1,0 +1,83 @@
+@charset"utf-8";
+
+/*全体*/
+body{
+
+font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+margin: 0px auto;
+padding: 0px;
+text-align: center;
+font-size:20px;}
+a:hover {
+  color: skyblue;
+  text-decoration: none;
+}
+/*スマホサイト*/
+
+/*タイトル*/
+.work{
+ margin-top:150px;
+font-size:20px;
+}
+
+/*header*/
+.header ul{
+list-style-type:none;
+display:flex;
+flex-wrap:nowrap;
+margin-top:0%;}
+
+
+
+.header li{
+ margin-right:30px;
+}
+
+
+
+/*ect*/
+#ect {
+margin-top:100px;    
+font-size:25px;
+font-family: 'Satisfy', cursive;}
+#ect h1{
+margin-top:400px;
+position:absolute;     
+margin-left:160px;
+}
+#ect ul{
+list-style-type:none;
+display:flex;
+flex-wrap:nowrap;
+}
+
+.ect_img img{
+width:50px; height:auto;    
+margin-top:500px;
+margin-left:20px;}
+
+
+
+/*pcサイト*/
+
+@media screen and (min-width:768px){
+    sp{display:none;}
+    pc{display:block;
+    margin:0 auto;
+    }
+
+/*タイトル*/
+.work{
+margin-top:300px;
+}
+    
+/*ヘッダー*/
+.header{
+margin-top:30px;
+position:absolute;
+left:500px;   
+}
+/*その他*/
+#ect{
+margin-left:450px;    
+font-family: 'Satisfy', cursive;    }

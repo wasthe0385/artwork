@@ -1,0 +1,125 @@
+@charset"utf-8";
+
+/*全体*/
+body{
+
+font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+margin: 0px auto;
+padding: 0px;
+text-align: center;
+font-size:20px;}
+a:hover {
+  color: skyblue;
+  text-decoration: none;
+}
+/*スマホサイト*/
+
+/*タイトル*/
+.design{
+ margin-top:150px;
+font-size:20px;
+}
+
+/*header*/
+.header ul{
+list-style-type:none;
+display:flex;
+flex-wrap:nowrap;
+margin-top:0%;}
+
+.header li{
+ margin-right:30px;
+}
+
+
+
+/*rogo*/
+#rogo {
+margin-top:100px;    
+font-size:25px;
+font-family: 'Satisfy', cursive;}
+#rogo h1{
+margin-top:400px;
+position:absolute;     
+margin-left:160px;
+}
+#rogo ul{
+list-style-type:none;
+display:flex;
+flex-wrap:nowrap;
+}
+
+.rogo_img img{
+width:100px; height:auto;    
+margin-top:500px;
+margin-left:20px;}
+
+.rogo_img1 img{
+width:200px; height:auto;    
+margin-top:500px;
+margin-left:20px;}
+
+/*label*/
+
+#Labeldesign{
+margin-top:100px;    
+font-size:25px;
+font-family: 'Satisfy', cursive;}
+#Labeldesign h1{
+margin-top:400px;
+position:absolute;     
+margin-left:160px;
+}
+#Labeldesign ul{
+list-style-type:none;
+display:flex;
+flex-wrap:nowrap;
+}
+
+.label_img img{
+width:400px; height:auto;    
+margin-top:500px;
+margin-left:20px;}
+
+
+
+
+/*pcサイト*/
+
+
+@media screen and (min-width:768px){
+    sp{display:none;}
+    pc{display:block;
+    margin:0 auto;
+    }
+
+
+/*タイトル*/
+
+.design{
+margin-top:300px;
+}
+    
+
+/*ヘッダー*/
+
+.header{
+margin-top:30px;
+position:absolute;
+left:420px;   
+}
+
+/*その他*/
+
+#rogo{
+margin-left:420px;    
+font-family: 'Satisfy', cursive;    }
+
+#Labeldesign{
+margin-left:420;    
+font-family: 'Satisfy', cursive;    }
+	
+.label_img img{
+width:400px; height:auto;    
+margin-top:500px;
+margin-left:0px;}
